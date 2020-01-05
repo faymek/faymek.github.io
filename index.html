@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>New Tab</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="lib/p5.min.js"></script>
+  <script src="mountain.js"></script>
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <div id="color-name" class="fadeout"></div>
+
+  <div class="verses waves horizontal">
+    <a id="verses-link" href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+      <div id="verses-content"></div>
+    </a>
+
+    <a hidden id="verses-link" href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+      <div id="verses-origin">
+        <span id="title" class="title"></span>
+        <span id="author" class="stamp"></span>
+      </div>
+    </a>
+
+    <div id="verses-origin">
+      <span class="title"><a href="https://blog.faymek.com" class="">文字</a></span>
+      <span>·</span>
+      <span class="title"><a href="/project" class="">项目</a></span>
+      <span>·</span>
+      <span class="stamp"><a href="/about" class="">在下</a></span>
+    </div>
+  </div>
+
+  <div id="menu" data-html2canvas-ignore="true">
+  </div>
+
+  <form id="jizhi-search" action="https://www.google.com/search" data-html2canvas-ignore="true">
+  </form>
+
+  <div class="container">
+    <span class="icon-play" id="move"></span>
+    <span class="icon-download3" id="save"></span>
+  </div>
+</body>
+
+</html>
